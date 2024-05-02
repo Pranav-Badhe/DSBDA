@@ -1,0 +1,18 @@
+Link - https://mapreduceprogram.blogspot.com
+
+
+1. remove errors -> process - build path - add external archives - filesystem - user - lib - hadoop - hadoop-common234.cdh13.0.jar
+
+2. mpreduce error -> process - build path - add external archives - filesystem - user - lib - hadoop_mapreduce - hadoop-core234.cdh13.0.jar
+
+3. open terminal
+pwd
+ls
+hadoop fs -put Desktop/Process.txt Process.txt  ----> copy and change file name if error
+
+4. Create jar file
+click on program - export - Java - jar file - click next - browse - save the file on cloudera as Process.jar - next - next - finish
+
+5. clear
+6. hadoop jar Process.jar Process.Process Process.txt dir16
+7. hadoop fs -cat dir16/part-r-00000
